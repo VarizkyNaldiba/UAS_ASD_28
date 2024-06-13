@@ -5,7 +5,7 @@ public class Main {
 
     
     public static void main(String[] args) {
-        Kendaraandll dll = new Kendaraandll();
+        Dll dll = new Dll();
         dll.tambahdata();
      while (dll.pilih != 5 || dll.pilih != 0) {
         dll.menu();

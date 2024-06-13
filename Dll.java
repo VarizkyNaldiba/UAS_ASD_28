@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Kendaraandll {
+public class Dll {
 
     Kendaraan head;
     int size  = 0;
