@@ -35,15 +35,15 @@ public class Dll {
 
     }
     public void tambahdata(){
-        tambahkendaraan("S 4567 YV", "Basko", "Mobil", 2000, 2012, 4);
-        tambahkendaraan("N 4511 VS", "Arta", "Mobil", 2500, 2015, 3);
-        tambahkendaraan("AB 4321 A", "Wisnu", "Motor", 125, 2010, 2);
-        tambahkendaraan("B 1234 AG", "Sisa", "Motor", 150, 2020, 1);
+        tambahkendaraan("S 6543 YZ", "Budi", "Mobil", 2500, 2017, 3);
+        tambahkendaraan("N 2589 VS", "Sulan", "Mobil", 2000, 2019, 5);
+        tambahkendaraan("AB 7654 AC", "Widi", "Motor", 200, 2018, 1);
+        tambahkendaraan("B 9876 AG", "Sukirman", "Motor", 100, 2021, 2);
     }
 
     public void tampilkanData() {
         if (kosong()) {
-            System.out.println("Kosong ges");
+            System.out.println("Wmpty");
         } else {
             System.out.printf("%-15s %-20s %-15s %-10s %-10s %-15s%n", 
                               "Nomor TNKB", "Nama Pemilik", "Jenis", "CC Kendaraan", "Tahun", "Bulan Harus Bayar");

@@ -1,9 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-
-
-    
     public static void main(String[] args) {
         Dll dll = new Dll();
         dll.tambahdata();
@@ -13,13 +10,9 @@ public class Main {
             case 1:
                 dll.tampilkanData();
                 break;
-        
             default:
                 break;
+            }
         }
-     }
-
-
     }
-    
 }
